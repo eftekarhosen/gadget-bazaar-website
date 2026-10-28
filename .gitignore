@@ -1,0 +1,16 @@
+# Local Vercel project metadata
+.vercel/
+
+# Dependencies and local build output
+node_modules/
+dist/
+build/
+
+# Secrets and environment-specific settings
+.env
+.env.*
+!.env.example
+
+# OS-generated files
+.DS_Store
+Thumbs.db
